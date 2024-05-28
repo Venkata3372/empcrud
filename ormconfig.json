@@ -1,0 +1,21 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "Venkata7202",
+    "database": "bhavaemployee",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "migrations": [
+        "dist/migration/**/*.js"
+      ],
+      "subscribers": [
+        "dist/subscriber/**/*.js"
+      ],
+      "cli": {
+        "entitiesDir": "src",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+      }
+}

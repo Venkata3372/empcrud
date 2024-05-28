@@ -1,0 +1,8 @@
+POST  https://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "title": "Example Note Title",
+  "description": "This is an example note description."
+}
+
